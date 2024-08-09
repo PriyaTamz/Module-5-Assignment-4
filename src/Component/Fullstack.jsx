@@ -4,7 +4,7 @@ const Fullstack = () => {
   return (
     <div className="card-container">
       <div className="card" style={{ width: '18rem', margin: '1rem' }}>
-        <img src="/fstack1.jpg" className="imgtop" alt="..." style={{ margin: 0, width: '100%', display: 'block' }} />
+        <img src="./fstack1.jpg" className="imgtop" alt="..." style={{ margin: 0, width: '100%', display: 'block' }} />
         <div className="card-body">
           <p className="card-text">Best Full-Stack Development Project Ideas in 2024</p>
           <p className='aut'>By Isha Sharma</p>
@@ -16,7 +16,7 @@ const Fullstack = () => {
       </div>
 
       <div className="card" style={{ width: '18rem', margin: '1rem' }}>
-        <img src="/fs2.jpg" className="card-img-top" alt="..."></img>
+        <img src="./fs2.jpg" className="card-img-top" alt="..."></img>
         <div className="card-body">
           <p className="card-text">How Long Would It Take to Be a Full Stack Developer?</p>
           <p className='aut'>By Meghana D</p>
@@ -28,7 +28,7 @@ const Fullstack = () => {
       </div>
 
       <div className="card" style={{ width: '18rem', margin: '1rem' }}>
-        <img src="/fs3.jpg" className="card-img-top" alt="..."></img>
+        <img src="./fs3.jpg" className="card-img-top" alt="..."></img>
         <div className="card-body">
           <p className="card-text">7 Unique Web Development Project Ideas for Beginners</p>
           <p className='aut'>By Lukesh S</p>
