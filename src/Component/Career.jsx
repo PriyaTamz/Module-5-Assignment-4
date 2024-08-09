@@ -1,10 +1,14 @@
-import React from 'react'
+import React from 'react';
+import fs2 from './fs2.jpg';
+import data3 from './data3.jpg';
+import fs3 from './fs3.jpg';  
+import fstack1 from './fstack1.jpg';  
 
 const Career = () => {
   return (
     <div className="card-container">
       <div className="card" style={{ width: '18rem', margin: '1rem' }}>
-        <img src="/fs2.jpg" className="card-img-top" alt="..."></img>
+        <img src={fs2} className="card-img-top" alt="Java Full Stack Development Course"></img>
         <div className="card-body">
           <p className="card-text">Java Full Stack Development Course</p>
           <p className='aut'>By Isha Sharma</p>
@@ -16,7 +20,7 @@ const Career = () => {
       </div>
 
       <div className="card" style={{ width: '18rem', margin: '1rem' }}>
-        <img src="/data3.jpg" className="card-img-top" alt="..."></img>
+        <img src={data3} className="card-img-top" alt="Data Science Course"></img>
         <div className="card-body">
           <p className="card-text">Data Science Course</p>
           <p className='aut1'>By Meghana D</p>
@@ -28,7 +32,7 @@ const Career = () => {
       </div>
 
       <div className="card" style={{ width: '18rem', margin: '1rem' }}>
-        <img src="/fs3.jpg" className="card-img-top" alt="..."></img>
+        <img src={fs3} className="card-img-top" alt="MERN Full Stack Development"></img>
         <div className="card-body">
           <p className="card-text">MERN Full Stack Development</p>
           <p className='aut1'>By Isha Sharma</p>
@@ -40,7 +44,7 @@ const Career = () => {
       </div>
 
       <div className="card" style={{ width: '18rem', margin: '1rem' }}>
-        <img src="/fstack1.jpg" className="card-img-top" alt="..."></img>
+        <img src={fstack1} className="card-img-top" alt="UI/UX Design course"></img>
         <div className="card-body">
           <p className="card-text">UI/UX Design course</p>
           <p className='aut1'>By Meghana D</p>
